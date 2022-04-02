@@ -69,7 +69,7 @@ reset.addEventListener("click", ()=>{
     element.innerText = "";
   })
   turn = "X";
-  document.querySelector(".line").style.display = "none";
+//   document.querySelector(".line").style.display = "none";
   document.getElementsByTagName("h1")[0].innerText = "Tic Tac Toe";
   document.getElementsByTagName("h1")[0].style = `text-align: center; margin-bottom: 15px;`;
   gameOver = false
