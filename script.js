@@ -34,8 +34,10 @@ const checkWin = () =>{
 				background: #9aed8b;
 				color: #055405;`;
       document.getElementsByClassName("info")[0].innerText = "Game Over";
+	/*
       document.querySelector(".line").style.transform = `translate(${e[3]}, ${e[4]}px) rotate(${e[5]}deg)`
       document.querySelector(".line").style.display = "block";
+      */
     	gameOver = true;
     }
   })
